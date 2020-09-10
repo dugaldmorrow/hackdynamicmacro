@@ -14,7 +14,19 @@
       {
         "key": "google-drive-docs",
         "name": {
-          "value": "Hack Macro"
+          "value": "Hack Google Drive"
+        },
+        "description": {
+          "value": "Testing a hack"
+        },
+        "url": "/hackdynamicmacro/InlineMacro.html?outputType={output.type}",
+        "featured": true,
+        "outputType": "inline",
+        "bodyType": "none"
+      }, {
+        "key": "map",
+        "name": {
+          "value": "Hack Map"
         },
         "description": {
           "value": "Testing a hack"
