@@ -1,0 +1,29 @@
+{
+  "key": "inline-dynamic-content-macro-app",
+  "version": "1.0.0",
+  "name": "Inline dynamic content macros sizing test",
+  "description": "Testing of inline dynamic content macros sizing",
+  "baseUrl": "https://dugaldmorrow.github.io",
+  "authentication": {
+    "type": "none"
+  },
+  "scopes": [],
+  "enableLicensing": false,
+  "modules": {
+    "dynamicContentMacros": [
+      {
+        "key": "google-drive-docs",
+        "name": {
+          "value": "Hack Macro"
+        },
+        "description": {
+          "value": "Testing a hack"
+        },
+        "url": "/hackdynamicmacro/InlineMacro.html?outputType={output.type}",
+        "featured": true,
+        "outputType": "inline",
+        "bodyType": "none"
+      }
+    ]
+  }
+}
