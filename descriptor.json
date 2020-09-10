@@ -32,9 +32,7 @@
           "value": "Testing a hack"
         },
         "url": "/hackdynamicmacro/InlineMacro.html?outputType={output.type}",
-        "featured": true,
-        "outputType": "inline",
-        "bodyType": "none"
+        "featured": true
       }
     ]
   }
