@@ -1,7 +1,7 @@
 {
-  "key": "inline-dynamic-content-macro-app",
+  "key": "dugald-hack-app",
   "version": "1.0.0",
-  "name": "Inline dynamic content macros sizing test",
+  "name": "Dugald Hack Testing",
   "description": "Testing of inline dynamic content macros sizing",
   "baseUrl": "https://dugaldmorrow.github.io",
   "authentication": {
