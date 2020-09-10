@@ -2,7 +2,7 @@
   "key": "dugald-hack-app",
   "version": "1.0.0",
   "name": "Dugald Hack Testing",
-  "description": "Testing of inline dynamic content macros sizing",
+  "description": "Testing of a hack",
   "baseUrl": "https://dugaldmorrow.github.io",
   "authentication": {
     "type": "none"
@@ -12,18 +12,6 @@
   "modules": {
     "dynamicContentMacros": [
       {
-        "key": "google-drive-docs",
-        "name": {
-          "value": "Hack Google Drive"
-        },
-        "description": {
-          "value": "Testing a hack"
-        },
-        "url": "/hackdynamicmacro/InlineMacro.html?outputType={output.type}",
-        "featured": true,
-        "outputType": "inline",
-        "bodyType": "none"
-      }, {
         "key": "map",
         "name": {
           "value": "Hack Map"
@@ -32,7 +20,9 @@
           "value": "Testing a hack"
         },
         "url": "/hackdynamicmacro/InlineMacro.html?outputType={output.type}",
-        "featured": true
+        "featured": true,
+        "width": "500px",
+        "height": "200px"
       }
     ]
   }
